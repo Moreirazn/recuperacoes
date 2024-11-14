@@ -1,10 +1,9 @@
-def piramide_sequencial(n):
-    for i in range(1, n + 1):
+def sequencia(x):
+    for i in range(1, x + 1):
         text = ""
-        for j in range(1, i + 1):
-            text += str(j)
+        for lista in range(1, i + 1):
+            text += str(lista)
         print(text)
 
-# Solicita a entrada do usuário
 piramide = int(input("Digite um número: "))
-piramide_sequencial(piramide)
+sequencia(piramide)
